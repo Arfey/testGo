@@ -47,12 +47,12 @@ curl -X POST -H 'Content-Type: application/json' -d "{\"userId\": 15 \"backers\"
 ***Set result***
 ```console
 PUT /v1/tournaments/1/
-```
+
 
 data: {"id": 14} // id of winner
 
 curl -X PUT -H 'Content-Type: application/json' -d "{\"userId\": 15}" http://localhost:8081/v1/tournaments/1/
-
+```
 ***Reset***
 
 POST /v1/reset/
